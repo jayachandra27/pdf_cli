@@ -1,6 +1,6 @@
 from setuptools import setup
 
-from main_1 import __version__
+# from main_1 import __version__
 
 setup(
     name='downloader',
