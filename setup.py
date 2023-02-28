@@ -11,7 +11,7 @@ setup(
     install_requires=[
         'requests>=2.17.3',
         'lxml',
-        'bs4'
+        'bs4>=0.0.1'
         'click>=6.7',
         'click-log==0.3.2',
         'setuptools==45'
