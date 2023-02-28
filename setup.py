@@ -16,5 +16,9 @@ setup(
         'click-log==0.3.2',
         'setuptools==45'
     ],
-    py_modules=["main_1"],
+    entry_points={
+        'console_scripts': [
+            'myapplication=downloader.main1:download'
+        ]
+    }
 )
