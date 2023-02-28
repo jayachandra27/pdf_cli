@@ -8,6 +8,13 @@ setup(
     url='https://github.com/jayachandra27/pdf_cli',
     author='Jay Reddy',
     author_email="jayachandra.s.reddy@gmail.com",
-    
+    install_requires=[
+        'requests>=2.17.3',
+        'lxml',
+        'bs4'
+        'click>=6.7',
+        'click-log==0.3.2',
+        'setuptools==45'
+    ],
     py_modules=["main_1"],
 )
